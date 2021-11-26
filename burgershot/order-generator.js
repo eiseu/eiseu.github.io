@@ -29,7 +29,7 @@ const Menu = {
 		items: ["Murder Meal"],
 	},
 	"Money Shot Meal": {
-		price: 70,
+		price: 100,
 		items: ["Money Shot", "Fries", "Soda"],
 	},
 	// Individual Items:
