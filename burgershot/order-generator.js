@@ -14,6 +14,8 @@ const Menu = {
 		header: true,
 	},
 	"The Gold Mine Combo": {
+		max: 2,
+		emoji: '⛏️',
 		price: 70,
 		items: ["Golden Nuggs", "Gold Rings", "Soda"],
 	},
@@ -45,7 +47,7 @@ const Menu = {
 		items: ["Golden Nuggs"]
 	},
 	"Money Shot": {
-		price: 42,
+		price: 70,
 		items: ["Money Shot"],
 	},
 	"Soda": {
@@ -57,7 +59,7 @@ const Menu = {
 		items: ["Fries"],
 	},
 	"Rimjob": {
-		price: 10,
+		price: 15,
 		items: ["Rimjob"],
 	},
 	"Toy": {
