@@ -13,44 +13,16 @@ const Menu = {
 	"Combination Items:": {
 		header: true,
 	},
-	"Torpedo Meal": {
+	"The Gold Mine Combo": {
 		price: 70,
-		items: ["Torpedo", "Fries", "Soda"],
-	},
-	"Bleeder Meal": {
-		price: 70,
-		items: ["Bleeder", "Fries", "Soda"],
-	},
-	"Meat Free Meal": {
-		price: 70,
-		items: ["Meat Free", "Fries", "Soda"],
-	},
-	"Rimjob Combo": {
-		price: 30,
-		items: ["Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob"],
-	},
-	// Variable combos:
-	"Running Man": {
-		price: 60,
-		emoji: '🏃',
-		items: ["Fries", "Fries", "Rimjob", "Rimjob", "Soda"],
-	},
-	"Sugar Rush": {
-		price: 35,
-		emoji: '🍬',
-		items: ["Soda", "Cream Pie", "Rimjob"],
-	},
-	"Sweet Tooth": {
-		price: 60,
-		emoji: '🦷',
-		items: ["Milkshake", "Milkshake", "Cream Pie", "Cream Pie"],
+		items: ["Golden Nuggs", "Gold Rings", "Soda"],
 	},
 	// Burger Meals:
 	"Burger Meals:": {
 		header: true,
 	},
 	"Murder Meal": {
-		max: 5,
+		max: 2,
 		fileRenameException: true,
 		price: 125,
 		noDiscount: true,
@@ -64,37 +36,21 @@ const Menu = {
 	"Individual Items:": {
 		header: true,
 	},
-	"Heartstopper": {
-		price: 40,
-		items: ["Heartstopper"],
+	"Gold Rings": {
+		price: 20,
+		items: ["Gold Rings"]
+	},
+	"Golden Nuggs": {
+		price: 80,
+		items: ["Golden Nuggs"]
 	},
 	"Money Shot": {
 		price: 42,
 		items: ["Money Shot"],
 	},
-	"Torpedo": {
-		price: 42,
-		items: ["Torpedo"],
-	},
-	"Bleeder": {
-		price: 42,
-		items: ["Bleeder"],
-	},
-	"Meat Free": {
-		price: 42,
-		items: ["Meat Free"],
-	},
-	"Water": {
-		price: 10,
-		items: ["Water"],
-	},
 	"Soda": {
 		price: 20,
 		items: ["Soda"]
-	},
-	"Milkshake": {
-		price: 30,
-		items: ["Milkshake"],
 	},
 	"Fries": {
 		price: 15,
@@ -103,10 +59,6 @@ const Menu = {
 	"Rimjob": {
 		price: 10,
 		items: ["Rimjob"],
-	},
-	"Cream Pie": {
-		price: 10,
-		items: ["Cream Pie"],
 	},
 	"Toy": {
 		price: 101,
@@ -118,8 +70,7 @@ const Menu = {
 };
 
 const INDIVIDUAL_ITEMS = [
-	"Murder Meal", "Heartstopper", "Money Shot", "Torpedo", "Bleeder", "Water", "Meat Free",
-	"Fries", "Soda", "Rimjob", "Cream Pie", "Milkshake", "Toy"
+	"Murder Meal", "Gold Rings", "Gold Nuggs", "Money Shot", "Fries", "Soda", "Rimjob", "Toy"
 ];
 
 const buttons = {
