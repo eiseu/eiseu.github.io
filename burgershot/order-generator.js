@@ -13,6 +13,18 @@ const Menu = {
 	"Combination Items:": {
 		header: true,
 	},
+	"Torpedo Meal": {
+		price: 70,
+		items: ["Torpedo", "Fries", "Soda"],
+	},
+	"Bleeder Meal": {
+		price: 70,
+		items: ["Bleeder", "Fries", "Soda"],
+	},
+	"Meat Free Meal": {
+		price: 70,
+		items: ["Meat Free", "Fries", "Soda"],
+	},
 	"Rimjob Combo": {
 		price: 30,
 		items: ["Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob", "Rimjob"],
@@ -117,29 +129,13 @@ const Menu = {
 	"Murder Meal": {
 		max: 5,
 		fileRenameException: true,
-		price: 101,
+		price: 125,
 		noDiscount: true,
 		items: ["Murder Meal"],
-	},
-	"Heartstopper Meal": {
-		price: 70,
-		items: ["Heartstopper", "Fries", "Soda"],
 	},
 	"Money Shot Meal": {
 		price: 70,
 		items: ["Money Shot", "Fries", "Soda"],
-	},
-	"Torpedo Meal": {
-		price: 70,
-		items: ["Torpedo", "Fries", "Soda"],
-	},
-	"Bleeder Meal": {
-		price: 70,
-		items: ["Bleeder", "Fries", "Soda"],
-	},
-	"Meat Free Meal": {
-		price: 70,
-		items: ["Meat Free", "Fries", "Soda"],
 	},
 	// Individual Items:
 	"Individual Items:": {
