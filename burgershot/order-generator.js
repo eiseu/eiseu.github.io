@@ -41,6 +41,10 @@ const Menu = {
 		price: 20,
 		items: ["Gold Rings"]
 	},
+	"Cherry Poppers": {
+		price: 20,
+		items: ["Cherry Poppers"]
+	},
 	"Golden Nuggs": {
 		price: 80,
 		items: ["Golden Nuggs"]
@@ -71,7 +75,7 @@ const Menu = {
 };
 
 const INDIVIDUAL_ITEMS = [
-	"Murder Meal", "Gold Rings", "Golden Nuggs", "Money Shot", "Fries", "Soda", "Rimjob", "Toy"
+	"Murder Meal", "Gold Rings", "Golden Nuggs", "Cherry Poppers", "Money Shot", "Fries", "Soda", "Rimjob", "Toy"
 ];
 
 const buttons = {
