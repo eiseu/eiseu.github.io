@@ -22,13 +22,14 @@ const Menu = {
 		header: true,
 	},
 	"Murder Meal": {
-		max: 2,
+		max: 5,
 		fileRenameException: true,
 		price: 125,
 		noDiscount: true,
 		items: ["Murder Meal"],
 	},
 	"Money Shot Meal": {
+		max: 5,
 		price: 100,
 		items: ["Money Shot", "Fries", "Soda"],
 	},
