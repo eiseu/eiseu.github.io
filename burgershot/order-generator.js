@@ -97,6 +97,10 @@ const discounts = {
 		percent: .50,
 		desc: '50% Discount (PD, EMS, BS Employees...)',
 	},
+	"twentyfive_off": {
+		percent: .25,
+		desc: 'Christmas Sale (25% Off)',
+	},
 	"blackout": {
 		percent: .15,
 		desc: 'Blackout Sale (15% off)',
