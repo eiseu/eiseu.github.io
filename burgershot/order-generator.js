@@ -14,8 +14,12 @@ const Menu = {
 		header: true,
 	},
 	"Gold Mine Combo": {
-		price: 110,
+		price: 220,
 		items: ["Golden Nuggs", "Gold Rings", "Soda"],
+	},
+	"The Marathon Combo": {
+		price: 200,
+		items: ["Shot Salad", "Bread Sticks", "Slime Juice"],
 	},
 	// Burger Meals:
 	"Burger Meals:": {
@@ -24,13 +28,13 @@ const Menu = {
 	"Murder Meal": {
 		max: 5,
 		fileRenameException: true,
-		price: 125,
+		price: 250,
 		noDiscount: true,
 		items: ["Murder Meal"],
 	},
 	"Money Shot Meal": {
 		max: 5,
-		price: 100,
+		price: 200,
 		items: ["Money Shot", "Fries", "Soda"],
 	},
 	// Individual Items:
@@ -38,43 +42,43 @@ const Menu = {
 		header: true,
 	},
 	"Slime Juice": {
-		price: 20,
+		price: 30,
 		items: ["Slime Juice"]
 	},
 	"Shot Salad": {
-		price: 80,
+		price: 150,
 		items: ["Shot Salad"]
 	},
 	"Bread Sticks": {
-		price: 20,
+		price: 30,
 		items: ["Bread Sticks"]
 	},
 	"Gold Rings": {
-		price: 20,
+		price: 40,
 		items: ["Gold Rings"]
 	},
 	"Cherry Poppers": {
-		price: 20,
+		price: 30,
 		items: ["Cherry Poppers"]
 	},
 	"Golden Nuggs": {
-		price: 80,
+		price: 160,
 		items: ["Golden Nuggs"]
 	},
 	"Money Shot": {
-		price: 70,
+		price: 150,
 		items: ["Money Shot"],
 	},
 	"Soda": {
-		price: 20,
+		price: 30,
 		items: ["Soda"]
 	},
 	"Fries": {
-		price: 15,
+		price: 30,
 		items: ["Fries"],
 	},
 	"Rimjob": {
-		price: 15,
+		price: 25,
 		items: ["Rimjob"],
 	},
 	"Toy": {
@@ -115,7 +119,7 @@ const discounts = {
 	},
 	"twentyfive_off": {
 		percent: .25,
-		desc: 'Christmas Sale (25% Off)',
+		desc: 'Event Sale (25% Off)',
 	},
 	"blackout": {
 		percent: .15,
